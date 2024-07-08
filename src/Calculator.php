@@ -16,10 +16,10 @@ class Calculator
 
     public function isEven(int $value): bool
     {
-        if ($value % 2 === 0) {
+        if ($value % 2 == 0) 
             return true;
-        } else {
+
+        else 
             return false;
-        }
     }
 }

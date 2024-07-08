@@ -39,6 +39,13 @@ class CalculatorTest extends TestCase
 
     public function testIsEven(): void
     {
-        
+        $value = 6;
+
+        $calculator = new Calculator();
+        $bool = $calculator->isEven($value);
+
+        $this->assertTrue($bool,
+            "La méthode isEven() ne fonctionne plus"
+        );
     }
 }
